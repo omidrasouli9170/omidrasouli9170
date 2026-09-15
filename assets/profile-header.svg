@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Omid Rasouli — Project Systems Archive</title>
+  <desc id="desc">AI-enabled systems, automation, media operations, infrastructure and interactive web experiences.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="0.55" stop-color="#151b35"/>
+      <stop offset="1" stop-color="#251b3f"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#79c0ff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#a78bfa" stop-opacity="0.8"/>
+      <stop offset="1" stop-color="#79c0ff" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="300" rx="28" fill="url(#bg)"/>
+  <circle cx="1040" cy="40" r="180" fill="#7c3aed" opacity="0.12" filter="url(#glow)"/>
+  <circle cx="1140" cy="260" r="150" fill="#38bdf8" opacity="0.10" filter="url(#glow)"/>
+  <path d="M60 238 C280 188 430 270 650 220 S980 180 1140 226" fill="none" stroke="url(#line)" stroke-width="2" opacity="0.85"/>
+  <g fill="none" stroke="#ffffff" stroke-opacity="0.08">
+    <path d="M820 70h300M820 110h300M820 150h300M820 190h300"/>
+    <path d="M860 40v190M920 40v190M980 40v190M1040 40v190M1100 40v190"/>
+  </g>
+  <text x="72" y="102" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="50" font-weight="700" fill="#ffffff">Omid Rasouli</text>
+  <text x="74" y="150" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24" font-weight="500" fill="#c9d1d9">Project Systems Archive</text>
+  <text x="74" y="194" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" fill="#9fb3c8">AI-enabled systems · workflow automation · media operations · infrastructure · interactive web</text>
+  <g font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" font-weight="600">
+    <rect x="74" y="224" width="128" height="38" rx="19" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.12"/>
+    <text x="138" y="248" text-anchor="middle" fill="#e6edf3">43 projects</text>
+    <rect x="216" y="224" width="180" height="38" rx="19" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.12"/>
+    <text x="306" y="248" text-anchor="middle" fill="#e6edf3">private source code</text>
+    <rect x="410" y="224" width="176" height="38" rx="19" fill="#ffffff" fill-opacity="0.08" stroke="#ffffff" stroke-opacity="0.12"/>
+    <text x="498" y="248" text-anchor="middle" fill="#e6edf3">public case notes</text>
+  </g>
+</svg>
